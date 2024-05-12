@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         custom: ['AbhayaLibre', 'AbhayaLibre'],
+        custom2: ['AlexBrush', 'AlexBrush']
       },
       colors: {
         primary: '#F5F5F5',
