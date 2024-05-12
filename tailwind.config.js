@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         custom: ['AbhayaLibre', 'AbhayaLibre'],
-        custom2: ['AlexBrush', 'AlexBrush']
+        custom2: ['AlexBrush', 'AlexBrush'],
+        customHome: ['CormorantUnicase-SemiBold', 'CormorantUnicase']
       },
       colors: {
         primary: '#F5F5F5',
