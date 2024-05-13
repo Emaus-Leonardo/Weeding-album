@@ -7,7 +7,7 @@ export default function Header() {
         <ul className="text-texts text-xl flex space-x-32 text-[20px] font-medium">
           <li className="hover:scale-125 transition-all">
             <NavLink to="/" className="hover:text-black  transition-all">
-              Home
+              HOME
             </NavLink>
           </li>
 
@@ -16,13 +16,13 @@ export default function Header() {
               to="/photo-album"
               className="hover:text-black transition-all"
             >
-              Photo Album
+              PHOTO ALBUM
             </NavLink>
           </li>
 
           <li className="hover:scale-125 transition-all">
             <NavLink to="/about" className="hover:text-black transition-all">
-              About
+              ABOUT
             </NavLink>
           </li>
         </ul>
