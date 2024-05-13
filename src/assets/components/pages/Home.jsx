@@ -17,7 +17,7 @@ function Home() {
             WEEDING
           </h2>
 
-          <h3 className="text-[12px] text-texts leading-[14px] tracking-[0.36px] font-CormorantUnicase-SemiBold w-[50%]">
+          <h3 className="text-[12px] text-black leading-[14px] tracking-[0.36px] font-CormorantUnicase-Bold w-[50%]">
             Lorem Ipsumis simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&#39;s standard dummy
             text ever since the 1500s, when an unknown printer took a galley of
@@ -31,7 +31,7 @@ function Home() {
         </div>
 
         <img className="pl-[430px]" src={HomeImg} alt="image home" />
-        <p className="text-[20px] font-Abhaya-Libre self-end tracking-[0.60px] pl-2">03.05.2024</p>
+        <p className="text-[20px] font-Abhaya-Libre self-end tracking-[0.60px] pl-1">03.05.2024</p>
       </div>
     </section>
   );
