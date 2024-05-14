@@ -3,18 +3,18 @@ import Hiro from "../../../../public/img/Hiro.png";
 
 function Home() {
   return (
-    <section className="bg-custom bg-contain h-[700px] max:h-full flex justify-center items-center overflow-x-hidden">
+    <section className="bg-custom h-[700px] flex justify-center items-center ">
       <div className="flex relative ml-[100px] max-lg:flex-col">
-        <div className="absolute -left-28 top-16 flex flex-col ">
-          <p className="text-[32px] text-texts !font-abhayalibre tracking-[4.16px]">
+        <div className="absolute md:-left-28 md:top-16 flex flex-col ">
+          <p className=" text-texts !font-abhayalibre md:tracking-[4.16px] md:text-[32px]">
             Celebrate
           </p>
 
-          <h1 className="text-[64px] text-texts font-CormorantUnicase-Bold tracking-[9.60px]">
+          <h1 className="md:text-[64px] text-texts font-CormorantUnicase-Bold md:tracking-[9.60px]">
             OUR DREAM
           </h1>
 
-          <h2 className="text-[62px] text-texts relative mt-[-16px] font-CormorantUnicase-SemiBold tracking-[6.40px]">
+          <h2 className="md:text-[62px] text-texts relative md:mt-[-16px] font-CormorantUnicase-SemiBold md:tracking-[6.40px]">
             WEEDING
           </h2>
 
