@@ -5,6 +5,7 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      screens: { md: { max: "1024px" },  sm: { max: "550px" }, tablet: { max: "768px" } },
       fontFamily: {
         "CormorantUnicase-Bold": ["CormorantUnicase-Bold", "sans-serif"],
         "CormorantUnicase-SemiBold": [
@@ -13,16 +14,6 @@ export default {
         ],
         "Alex-Brush": ["Alex-Brush", "sans-serif"],
         "Abhaya-Libre": ["Abhaya-Libre", "sans-serif"],
-      },
-      screens: {
-        tablet: "640px",
-        // => @media (min-width: 640px) { ... }
-
-        laptop: "1440px",
-        // => @media (min-width: 1024px) { ... }
-
-        desktop: "1280px",
-        // => @media (min-width: 1280px) { ... }
       },
       colors: {
         primary: "#F5F5F5",
