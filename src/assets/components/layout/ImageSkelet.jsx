@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 import { Blurhash } from "react-blurhash";
 
 export default function ImageSkelet({ src }) {
@@ -16,15 +15,17 @@ export default function ImageSkelet({ src }) {
   return (
     <>
       {!imageLoad ? (
-        <Blurhash
-          className="animate-pulse rounded-lg"
-          hash={`LcLNVjxtWARj~oR*oJofjDj]flfl`}
-          width={242}
-          height={323}
-          resolutionX={31}
-          resolutionY={31}
-          punch={1}
-        />
+        <div style={{ borderRadius: "8px", overflow: "hidden" }}>
+          <Blurhash
+            className="animate-pulse transition-all"
+            hash={`LcLNVjxtWARj~oR*oJofjDj]flfl`}
+            width={220}
+            height={323}
+            resolutionX={31}
+            resolutionY={31}
+            punch={1}
+          />
+        </div>
       ) : (
         <img
           src={src}
