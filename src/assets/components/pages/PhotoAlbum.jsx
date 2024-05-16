@@ -24,7 +24,7 @@ const PhotoAlbum = () => {
   return (
     <div className="p-5 md:p-19">
       <div
-        className="columns-1 gap-5 lg:gap-6 sm:columns-2 lg:columns-3 xl:columns-5 tablet:columns-2 md:columns-3
+        className="columns-1 gap-5 lg:gap-6 sm:columns-2 lg:columns-4 xl:columns-5 tablet:columns-2 md:columns-3
       [&>img:not(:firs-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8 sm:[&>img:not(:first-child)]:mt-8 md:[&>img:not(:first-child)]:mt-8"
       >
         {fotos.map((foto, index) => (
