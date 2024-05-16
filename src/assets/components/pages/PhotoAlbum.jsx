@@ -63,6 +63,7 @@ const PhotoAlbum = () => {
           />
         ))}
       </div>
+      {/* Renderiza a imagem em tela cheia se houver uma selecionada */}
       {selectedImageIndex !== null && (
         <div className="fixed top-0 left-0 z-50 w-full h-full flex items-center justify-center bg-black bg-opacity-80">
           <img src={fotos[selectedImageIndex]} alt="Fullscreen" className="max-w-full max-h-full" />
