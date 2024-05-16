@@ -5,7 +5,7 @@ function Home() {
     <>
       <div className="w-full bg-gray-300">
         
-          <div className="flex h-[700px] items-center justify-center bg-custom px-6 pb-[5px] md:pt-[100px] md:pb-[100px] tablet:pt-[100px] tablet:pb-[100px] sm:pt-[100px] sm:pb-[100px] md:h-auto transition-all ease-linear">
+          <div className="flex h-[800px] items-center justify-center bg-custom px-6 pb-[5px] md:pt-[100px] md:pb-[100px] tablet:pt-[100px] tablet:pb-[100px] sm:pt-[100px] sm:pb-[100px] md:h-auto transition-all ease-linear">
             <div className="mx-auto flex w-full max-w-[954px] flex-col gap-[25px]">
               <div className="flex items-start justify-between gap-5 md:flex-col">
                 <div className="mt-[71px] w-[49%] flex justify-center md:w-full">
