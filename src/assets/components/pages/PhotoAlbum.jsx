@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiChevronLeft, FiChevronRight, FiX } from 'react-icons/fi'; // Importe os ícones necessários
+import { FiChevronLeft, FiChevronRight, FiX } from 'react-icons/fi';
 
 const PhotoAlbum = () => {
   // Array que armazena o caminho das imagens
