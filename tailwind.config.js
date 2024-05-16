@@ -5,7 +5,12 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      screens: { md: { max: "1024px" },  sm: { max: "550px" }, tablet: { max: "768px" } },
+      screens: {
+        md: { max: "1024px" },
+        sm: { max: "550px" },
+        tablet: { max: "768px" },
+        celularAlbum: { max: "425" },
+      },
       fontFamily: {
         "CormorantUnicase-Bold": ["CormorantUnicase-Bold", "sans-serif"],
         "CormorantUnicase-SemiBold": [

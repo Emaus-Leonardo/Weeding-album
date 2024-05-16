@@ -24,8 +24,8 @@ const PhotoAlbum = () => {
   return (
     <div className="p-5 md:p-19">
       <div
-        className="columns-1 gap-5 lg:gap-6 sm:columns-2 lg:columns-3 xl:columns-4 ssm:columns-1 sssm:columns-1
-      [&>img:not(:firs-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8 sm:[&>img:not(:first-child)]:mt-8 ssm:[&>img:not(:first-child)]:mt-8 sssm:[&>img:not(:first-child)]:mt-8"
+        className="columns-1 gap-5 lg:gap-6 sm:columns-2 lg:columns-3 xl:columns-5 tablet:columns-2 md:columns-3
+      [&>img:not(:firs-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8 sm:[&>img:not(:first-child)]:mt-8 md:[&>img:not(:first-child)]:mt-8"
       >
         {fotos.map((foto, index) => (
           <img key={index} src={foto} alt={`Foto ${index + 1}`} className="hover:scale-110 transition-all rounded-lg" />

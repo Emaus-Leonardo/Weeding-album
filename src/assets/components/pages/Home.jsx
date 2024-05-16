@@ -19,7 +19,7 @@ function Home() {
                           OUR DREAM
                         </h1>
                       </div>
-                      <h2 className="text-[62px] text-texts relative mt-[-16px] !font-CormorantUnicase-SemiBold tracking-[6.40px]  sm:tracking-wide sm:text-[42px]  transition-all ease-linear">
+                      <h2 className="text-[62px] text-texts relative mt-[-16px] !font-CormorantUnicase-SemiBold tracking-[6.40px] sm:tracking-wide sm:text-[42px]  transition-all ease-linear">
                         WEEDING
                       </h2>
                     </div>
